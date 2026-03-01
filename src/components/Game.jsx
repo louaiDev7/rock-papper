@@ -13,9 +13,9 @@ function determineWinner(user, computer) {
   return beats[user] === computer ? "win" : "lose";
 }
 const resultConfig = {
-  win: { label: "za3im", color: "#4ECDC4", sub: "Flawless victory" },
-  lose: { label: "bajlit", color: "#FF6B35", sub: "roh trgd " },
-  draw: { label: "3wd", color: "#FFE66D", sub: "Great minds think alike" },
+  win: { label: "za3im", color: "#4ECDC4", sub: "zhar brk" },
+  lose: { label: "bghal", color: "#FF6B35", sub: "roh trgd " },
+  draw: { label: "3wd", color: "#FFE66D", sub: "" },
 };
 
 export default function Game() {
