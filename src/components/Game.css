@@ -1,0 +1,54 @@
+.game-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  background-color: #f0f4f8;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.buttons button {
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  transition: 0.2s;
+  background-color: #4caf50;
+  color: white;
+}
+
+.buttons button:hover {
+  background-color: #45a049;
+}
+
+.status {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.result {
+  font-weight: bold;
+  margin-top: 1rem;
+  color: #ff5722;
+}
+
+.reset-btn {
+  margin-top: 2rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.reset-btn:hover {
+  background-color: #0b7dda;
+}

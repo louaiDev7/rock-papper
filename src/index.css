@@ -1,0 +1,28 @@
+/* Reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a default font and background for the whole page */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  min-height: 100vh;
+}
+
+/* Make buttons have consistent styles across the app */
+button {
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s;
+}
+
+/* Utility class for centering content */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
